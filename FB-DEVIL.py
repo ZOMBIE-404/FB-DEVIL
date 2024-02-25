@@ -7,4 +7,4 @@ fbd=platform.architecture()[0]
 if fbd=="32bit":
     __import__("FB-DEVIL32")
 elif fbd=="64bit":
-    __import__("FB-DEVIL64")
+    __import__("BS")
