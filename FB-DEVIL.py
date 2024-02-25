@@ -1,6 +1,10 @@
 import os,platform
 os.system('git pull')
-#exit('\n Wait Working On Tool..!')
-adina=platform.architecture()[0]
-if adina=="32bi":exit(" coming soon 32 bit ")
-elif adina=="64bit":__import__("BS")
+os.system("clear")
+print('\033[92;1m Join Whatsapp Group')
+os.system('xdg-open https://chat.whatsapp.com/I8lDwpjr7L1Jql60UhIXep')
+fbd=platform.architecture()[0]
+if fbd=="32bit":
+    __import__("FB-DEVIL32")
+elif fbd=="64bit":
+    __import__("FB-DEVIL64")
